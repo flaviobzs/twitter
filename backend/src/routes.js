@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
-import TweetController from './controllers/TweetController';
-import LikeController from './controllers/LikeController';
+import TweetController from './app/controllers/TweetController';
+import LikeController from './app/controllers/LikeController';
 
 const routes = Router();
 
